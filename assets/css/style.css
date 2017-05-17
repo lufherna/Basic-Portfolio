@@ -9,9 +9,19 @@ body {
 
 }
 
+.whiteHeader {
+	background-color: white;
+	margin:0px;
+	padding: 0;
+
+}
+
+
+
 .myName1 {
 	background-color: #4aaaa5;
-	margin:0 150px 0 20px;
+	margin:0px;
+	width: 250px;
 }
 
 .myName2 {
@@ -19,19 +29,90 @@ body {
 	padding: 15px;
 }
 
+.profilePic {
+	height:150px;
+	width:200px;
+	float: left;
+
+}
+
 .aboutMe1 {
 	background-color: white;
-	height: 100px;
-	width: 100px;
+	height: 500px;
+	width: 500px;
+	float: left;
+	padding: 20px;
+	margin: 40px;
 
 }
 
 .aboutMe2 {
-
+	color:#4aaaa5;
 
 }
 
 .aboutMe3 {
+	float: right;
 
+}
+
+.hr2 {
+	height:1px;
+	border-color:#eeeeee;
+
+}
+
+.contactInfo {
+	background-color: white;
+	float: right;
+	height: 200px;
+	width: 200px;
+	margin: 40px 400px 0 10px;
+	
+
+}
+
+.connect {
+	color: #4aaaa5;
+	text-align: center;
+	font-weight: bold;	
+}
+
+.github {
+	height: 55px;
+	width: 55px;
+	border: 1px solid black;
+	margin-left: 10px;
+
+}
+
+.indeed {
+	height: 55px;
+	width: 55px;
+	border: 1px solid blue;
+
+}
+
+.stackoverflow {
+	height: 55px;
+	width: 55px;
+	border: 1px solid orange;
+
+}
+
+.aboveFoot{
+	background-color:#4aaaa5;
+
+}
+
+.footer {
+	clear: both;
+	margin:0px;
+	background-color: #666;
+	padding: 30px;
+	width:100%;
+	color: white;
+	text-align:center;
+	border-top: 5px solid #4aaaa5;
 
 }
