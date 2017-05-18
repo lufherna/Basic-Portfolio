@@ -1,6 +1,6 @@
 
 body {
-	background-color: #eeeeee;
+	background-color: lightblue;
 }
 
 .main-content {
@@ -11,8 +11,8 @@ body {
 
 .whiteHeader {
 	background-color: white;
-	margin:0px;
-	padding: 0;
+	border-bottom: 1px solid black;
+	height:80px;
 
 }
 
@@ -22,11 +22,30 @@ body {
 	background-color: #4aaaa5;
 	margin:0px;
 	width: 250px;
+	height: 100%;
+	margin-left: 150px;
+	}
+
+ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		display: wrap;
+		float: right;
+
+	}
+
+li {
+	display: inline;
 }
 
 .myName2 {
 	color: white;
-	padding: 15px;
+	padding: 25px 0 0 0;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
+	font-size: 30px;
+
 }
 
 .profilePic {
@@ -42,18 +61,31 @@ body {
 	width: 500px;
 	float: left;
 	padding: 20px;
-	margin: 40px;
+	margin: 20px 0 0 150px;
 
 }
 
 .aboutMe2 {
 	color:#4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 25px;
 
 }
 
 .aboutMe3 {
-	float: right;
+	display:flex;
+	flex-wrap: wrap;
+	padding: 10px;
+	position: relative;
+	bottom: 50px;
 
+}
+
+.aboutMe4 {
+	display:flex;
+	flex-wrap: wrap;
+	padding: 10px;
+	position: relative;
 }
 
 .hr2 {
@@ -64,11 +96,10 @@ body {
 
 .contactInfo {
 	background-color: white;
-	float: right;
+	float: left;
 	height: 200px;
 	width: 200px;
-	margin: 40px 400px 0 10px;
-	
+	margin-top: 5px;
 
 }
 
