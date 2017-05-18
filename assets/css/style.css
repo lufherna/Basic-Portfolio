@@ -3,11 +3,6 @@ body {
 	background-color: lightblue;
 }
 
-.main-content {
-	
-
-
-}
 
 .whiteHeader {
 	background-color: white;
@@ -28,11 +23,7 @@ body {
 
 ul {
 		list-style-type: none;
-		margin: 0;
-		padding: 0;
-		display: wrap;
-		float: right;
-
+		float:right;
 	}
 
 li {
@@ -76,8 +67,8 @@ li {
 	display:flex;
 	flex-wrap: wrap;
 	padding: 10px;
-	position: relative;
 	bottom: 50px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 
 }
 
@@ -85,7 +76,7 @@ li {
 	display:flex;
 	flex-wrap: wrap;
 	padding: 10px;
-	position: relative;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .hr2 {
