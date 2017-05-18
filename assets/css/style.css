@@ -1,6 +1,6 @@
 
 body {
-	background-color: lightblue;
+	background-image: url("../images/playstation-pattern.png");
 }
 
 
@@ -24,6 +24,7 @@ body {
 ul {
 		list-style-type: none;
 		float:right;
+		margin: 25px 100px 25px 125px;
 	}
 
 li {
@@ -36,7 +37,7 @@ li {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	text-align: center;
 	font-size: 30px;
-
+	font-weight: bold;
 }
 
 .profilePic {
@@ -52,14 +53,16 @@ li {
 	width: 500px;
 	float: left;
 	padding: 20px;
-	margin: 20px 0 0 150px;
+	margin: 20px 0 150px 150px;
+	border: 1px solid blue;
 
 }
 
 .aboutMe2 {
 	color:#4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	font-size: 25px;
+	font-size: 35px;
+	font-weight: bold;
 
 }
 
@@ -87,10 +90,12 @@ li {
 
 .contactInfo {
 	background-color: white;
-	float: left;
-	height: 200px;
+	height: 150px;
 	width: 200px;
-	margin-top: 5px;
+	margin-top: 20px;
+	float:right;
+	margin-right:400px;
+	border: 1px solid red;
 
 }
 
@@ -98,6 +103,8 @@ li {
 	color: #4aaaa5;
 	text-align: center;
 	font-weight: bold;	
+	padding: 8px;
+	font-size: 15px;
 }
 
 .github {
@@ -129,12 +136,11 @@ li {
 
 .footer {
 	clear: both;
-	margin:0px;
 	background-color: #666;
-	padding: 30px;
 	width:100%;
 	color: white;
 	text-align:center;
 	border-top: 5px solid #4aaaa5;
+	padding: 30px;
 
 }
