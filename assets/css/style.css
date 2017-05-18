@@ -3,10 +3,19 @@ body {
 	background-image: url("../images/playstation-pattern.png");
 }
 
+a {
+	text-decoration: none;
+
+}
+
+a:hover {
+	color: red;
+
+}
 
 .whiteHeader {
 	background-color: white;
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid #cccccc;
 	height:80px;
 
 }
@@ -24,7 +33,9 @@ body {
 ul {
 		list-style-type: none;
 		float:right;
-		margin: 25px 100px 25px 125px;
+		margin: 30px 400px 25px 125px;
+		color: #777;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
 	}
 
 li {
@@ -41,7 +52,7 @@ li {
 }
 
 .profilePic {
-	height:150px;
+	height: 300px;
 	width:200px;
 	float: left;
 
@@ -86,11 +97,11 @@ li {
 }
 
 .aboutMe5 {
-	display:flex;
 	flex-wrap: wrap;
-	padding: 10px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777;
+	padding: 8px;
+    clear: both;
 }
 
 .hr2 {
@@ -132,7 +143,7 @@ li {
 
 }
 
-.indeed {
+.linkedin{
 	height: 55px;
 	width: 55px;
 	border: 1px solid blue;
